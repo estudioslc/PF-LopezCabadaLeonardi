@@ -171,43 +171,19 @@ main .bg-image{
 }
 
 
-/* Main Noticias */
-main .fondonoticias{
-    background-color: rgb(170, 200, 167);
-}
-.titulonoticias{
+/* Main Noticias mobile first*/
+
+.noticias-main{
+    background-color: rgba(250, 246, 246, 0.973);
+    padding: 3rem 1.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    
+    gap: 1rem;
 }
-.cuerponoticias{
-    margin-top: 0%;
-}
-.subtitulonoticias{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 23px;
-    padding: 20px;
-    margin-right: 50px;
-}
-.containernot{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.imagensalario img{
-    width: 700px;
-    padding: 20px;
-    margin-top: 0px;
-
-}
-.parrafonoticias{
-    width: 80%;
-    margin: 100px;
-    margin-top: 40px;
-    padding-top: 10px;
+.img-not-caja3{
+    width: 100%;
 }
 
 
@@ -311,9 +287,9 @@ footer{
     }
 }
 
-/* Responsive Nosotros Deskstop */
+/* Responsive Nosotros para Deskstop */
 
-@media(min-width:1024px){
+@media(min-width:991px){
     .nosotrosmain {
             display: grid;
             width: 100%;
@@ -352,6 +328,39 @@ footer{
                 place-items: center; */
             }         
         }
+    .noticias-main{
+        display: grid;
+        width: 100%;
+        border: 1px solid yellowgreen;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10% 10% 80%;
+        grid-template-areas: 
+        "not-caja1 not-caja1"
+        "not-caja2 not-caja2"
+        "not-caja3 not-caja4";
+        .not-caja1{
+            grid-area: not-caja1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .not-caja2{
+            grid-area: not-caja2;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .not-caja3{
+            grid-area: not-caja3;
+        }
+        .not-caja4{
+            grid-area: not-caja4;
+            padding: 10px;
+        }
+        .p-not-caja4{
+            font-size: 20px;
+        }
+
+    }
 
 /* Responsive footer desktop */
 
@@ -372,12 +381,10 @@ footer{
     }
 
 
-    /* Responsive Main Servicios Desktop first */
+/* Responsive para mobile Servicios */
 
 
-
-
-    @media(max-width:990px){
+    @media(max-width:991px){
         main .main-servicios{
             background-color: rgba(250, 246, 246, 0.973);
             padding: 3rem 1.5rem;
