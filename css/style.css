@@ -373,6 +373,10 @@ footer{
 
 
     /* Responsive Main Servicios Desktop first */
+
+
+
+
     @media(max-width:990px){
         main .main-servicios{
             background-color: rgba(250, 246, 246, 0.973);
@@ -387,6 +391,14 @@ footer{
             flex-direction: column;
             
         }
+        .card{
+            margin: 0px;
+            padding: 20px;
+        }
+        .card img{
+            height: 0%;
+        }
+
         .laboralmas{
             width: 100%;
 
