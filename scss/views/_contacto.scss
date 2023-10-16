@@ -1,0 +1,45 @@
+/* Main contacto */
+
+.titulocontacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.pcontacto{
+    display: flex;
+    justify-content: center;
+}
+
+main .fondocontacto{
+    background-color: beige;
+}
+main .tituloyparrafo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+main section h2{
+    color: rgb(34, 43, 33);
+    background-color: rgba(255, 255, 255, 0.829);
+    width: 400px;
+    margin-bottom: 80px;
+    padding: 10px 5px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section p{
+    text-align: justify;
+    color: rgb(37, 40, 49);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.829);
+    width: 600px;
+    padding: 20px 40px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

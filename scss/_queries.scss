@@ -1,0 +1,130 @@
+/* Responsive Index y footer index*/
+@media(max-width:480px){
+    main section p{
+        width: 100%;
+    }
+}
+
+/* Responsive Nosotros para Deskstop */
+
+@media(min-width:991px){
+    .nosotrosmain {
+            display: grid;
+            width: 100%;
+            border: 1px solid yellowgreen;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: 15% 30% 30% 25%;
+            grid-template-areas: 
+            "noscaja1 noscaja1 noscaja1"
+            "noscaja2 noscaja3 noscaja4"
+            "noscaja2 noscaja3 noscaja4"
+            "noscaja5 noscaja5 noscaja5";
+            .noscaja1{
+                grid-area: noscaja1;
+            }
+            .noscaja2{
+                grid-area: noscaja2;
+            }
+            .noscaja3{
+                grid-area: noscaja3;
+            }
+            .noscaja3 img{
+                max-width: 100%;
+            }
+            .noscaja4{
+                grid-area: noscaja4;
+            }
+            .noscaja5{
+                grid-area: noscaja5;
+            }         
+        }
+    .noticias-main{
+        display: grid;
+        width: 100%;
+        border: 1px solid yellowgreen;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10% 10% 80%;
+        grid-template-areas: 
+        "not-caja1 not-caja1"
+        "not-caja2 not-caja2"
+        "not-caja3 not-caja4";
+        .not-caja1{
+            grid-area: not-caja1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .not-caja2{
+            grid-area: not-caja2;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .not-caja3{
+            grid-area: not-caja3;
+        }
+        .not-caja4{
+            grid-area: not-caja4;
+            padding: 10px;
+        }
+        .p-not-caja4{
+            font-size: 20px;
+        }
+
+    }
+
+/* Responsive footer desktop */
+
+    .footer{
+        flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem 8rem;
+        }
+        .logo-menu{
+            align-items: start;
+        }
+        .footer-menu ul{
+            flex-direction: row;
+        }
+        .icons-copyright{
+            align-items: end;
+        }   
+    }
+
+
+/* Responsive para mobile Servicios */
+
+
+    @media(max-width:991px){
+        main .main-servicios{
+            background-color: rgba(250, 246, 246, 0.973);
+            padding: 3rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .containerservicios{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .card{
+            margin: 0px;
+            padding: 20px;
+        }
+        .card img{
+            height: 0%;
+        }
+
+        .laboralmas{
+            width: 100%;
+
+        }
+        .familymas{
+            width: 100%;
+        }
+        .impuestosmas{
+            width: 100%;
+        }
+        
+    } 

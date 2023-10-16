@@ -1,0 +1,28 @@
+/*Header*/
+
+.navbar{
+    background-color: rgb(204, 252, 236);
+}
+.menu nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    ul{
+        display: flex;
+        list-style-type: none;
+        li {
+            margin-left: 10px;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            &:hover{
+                a{
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+}
