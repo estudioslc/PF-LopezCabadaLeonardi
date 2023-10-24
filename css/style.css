@@ -12,7 +12,7 @@
 
 /*Header*/
 .navbar {
-  background-color: rgb(204, 252, 236);
+  background-color: #C4DFDF;
 }
 
 .menu nav {
@@ -48,7 +48,7 @@ main .bg-image {
 
 /*Main Nosotros mobile first*/
 .nosotrosmain {
-  background-color: rgba(250, 246, 246, 0.973);
+  background-color: #F1EFEF;
   padding: 3rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -67,6 +67,10 @@ main .bg-image {
 }
 
 /*Main Servicios*/
+.main-servicios {
+  background-color: #F1EFEF;
+}
+
 .servicios {
   width: 100%;
   display: flex;
@@ -166,7 +170,7 @@ main .bg-image {
 
 /* Main Noticias mobile first*/
 .noticias-main {
-  background-color: rgba(250, 246, 246, 0.973);
+  background-color: #F1EFEF;
   padding: 3rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -189,6 +193,8 @@ main .bg-image {
 .pcontacto {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 main .fondocontacto {
@@ -237,9 +243,13 @@ footer {
   padding: 2rem;
   text-align: center;
 }
-
-.logo-menu,
-.icons-copiright {
+footer .logo-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+footer .icons-copiright {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -259,6 +269,10 @@ footer {
   font-family: var(--text);
   color: var(--white);
   font-size: 0.75rem;
+}
+
+.logo-lc {
+  width: 40%;
 }
 
 .icons {

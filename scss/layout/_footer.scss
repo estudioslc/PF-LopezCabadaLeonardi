@@ -8,14 +8,23 @@ footer{
     color: white;
     padding: 2rem;
     text-align: center;
-}
-.logo-menu, 
-.icons-copiright{
+    
+    .logo-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    
+    .icons-copiright{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
 }
+}
+
 .footer-menu ul{
     list-style-type: none;
     display: flex;
@@ -28,6 +37,9 @@ footer{
     font-family: var(--text);
     color: var(--white);
     font-size: 0.75rem;
+}
+.logo-lc{
+    width: 40%;
 }
 .icons{
     display: flex;
