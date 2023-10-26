@@ -249,6 +249,9 @@ footer .logo-menu {
   gap: 1rem;
   align-items: center;
 }
+footer .logo-lc {
+  width: 15%;
+}
 footer .icons-copiright {
   display: flex;
   flex-direction: column;
@@ -269,10 +272,6 @@ footer .icons-copiright {
   font-family: var(--text);
   color: var(--white);
   font-size: 0.75rem;
-}
-
-.logo-lc {
-  width: 40%;
 }
 
 .icons {
@@ -366,6 +365,9 @@ footer .icons-copiright {
   }
   .icons-copyright {
     align-items: end;
+  }
+  .logo-lc {
+    width: 60%;
   }
 }
 /* Responsive para mobile Servicios */
