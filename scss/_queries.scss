@@ -76,9 +76,9 @@
 
     .footer{
         flex-direction: row;
-            justify-content: space-between;
-            padding: 2rem 8rem;
-        }
+        justify-content: space-between;
+        padding: 2rem 8rem;
+        
         .logo-menu{
             align-items: start;
         }
@@ -90,6 +90,7 @@
         }
         .logo-lc{
             width: 60%;
+        }
         }   
     }
 

@@ -357,16 +357,16 @@ footer .icons-copiright {
     justify-content: space-between;
     padding: 2rem 8rem;
   }
-  .logo-menu {
+  .footer .logo-menu {
     align-items: start;
   }
-  .footer-menu ul {
+  .footer .footer-menu ul {
     flex-direction: row;
   }
-  .icons-copyright {
+  .footer .icons-copyright {
     align-items: end;
   }
-  .logo-lc {
+  .footer .logo-lc {
     width: 60%;
   }
 }
