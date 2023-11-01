@@ -14,6 +14,14 @@
 .navbar {
   background-color: #C4DFDF;
 }
+.navbar .logo-LC-header {
+  width: 10%;
+}
+.navbar .navbar-brand {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
 
 .menu nav {
   display: flex;
@@ -44,6 +52,9 @@ main .bg-image {
   background-position: center;
   background-repeat: no-repeat;
   padding: 80px 20px;
+}
+main .bg-image .h2main {
+  text-align: center;
 }
 
 /*Main Nosotros mobile first*/
@@ -184,6 +195,21 @@ main .bg-image {
 }
 
 /* Main contacto */
+.fondocontacto {
+  background-color: #F1EFEF;
+}
+
+.img-contacto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
 .titulocontacto {
   display: flex;
   justify-content: center;
@@ -195,10 +221,6 @@ main .bg-image {
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
-
-main .fondocontacto {
-  background-color: beige;
 }
 
 main .tituloyparrafo {
@@ -233,6 +255,10 @@ main section p {
   align-items: center;
 }
 
+.col-6 {
+  width: 100%;
+}
+
 /* Footer */
 footer {
   background-color: black;
@@ -250,7 +276,7 @@ footer .logo-menu {
   align-items: center;
 }
 footer .logo-lc {
-  width: 15%;
+  width: 20%;
 }
 footer .icons-copiright {
   display: flex;
@@ -280,6 +306,9 @@ footer .icons-copiright {
   align-items: center;
   gap: 1rem;
   font-size: 1.2rem;
+}
+.icons a {
+  color: var(--white);
 }
 
 .copyright {
@@ -350,6 +379,18 @@ footer .icons-copiright {
   }
   .noticias-main .p-not-caja4 {
     font-size: 20px;
+  }
+  /* Responsive Contacto para Deskstop */
+  .col-6 {
+    width: 50%;
+  }
+  .contenedor-img-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-contacto {
+    width: 60%;
   }
   /* Responsive footer desktop */
   .footer {

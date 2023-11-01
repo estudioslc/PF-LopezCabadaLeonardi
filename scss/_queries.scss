@@ -71,6 +71,19 @@
         }
 
     }
+/* Responsive Contacto para Deskstop */
+
+.col-6{
+    width: 50%;
+}
+.contenedor-img-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-contacto{
+    width: 60%;
+}
 
 /* Responsive footer desktop */
 
@@ -110,7 +123,6 @@
         .containerservicios{
             display: flex;
             flex-direction: column;
-            
         }
         .card{
             margin: 0px;

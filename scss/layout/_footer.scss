@@ -16,7 +16,7 @@ footer{
         align-items: center;
     }
     .logo-lc{
-        width: 15%;
+        width: 20%;
     }
 
     
@@ -48,6 +48,9 @@ footer{
     align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
+    a{
+        color: var(--white);
+    }
 }
 
 .copyright{
