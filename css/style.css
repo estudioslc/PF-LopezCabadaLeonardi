@@ -325,6 +325,27 @@ footer .icons-copiright {
 }
 /* Responsive Nosotros para Deskstop */
 @media (min-width: 991px) {
+  .cont-laboral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+  }
+  .cont-sucesiones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+  }
+  .cont-fiscal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+  }
   .nosotrosmain {
     display: grid;
     width: 100%;
@@ -413,6 +434,9 @@ footer .icons-copiright {
 }
 /* Responsive para mobile Servicios */
 @media (max-width: 991px) {
+  .navbar .logo-LC-header {
+    width: 15%;
+  }
   main .main-servicios {
     background-color: rgba(250, 246, 246, 0.973);
     padding: 3rem 1.5rem;
