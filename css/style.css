@@ -300,6 +300,11 @@ footer .icons-copiright {
   font-size: 0.75rem;
 }
 
+.footer-menu ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 .icons {
   display: flex;
   justify-content: center;
@@ -309,6 +314,9 @@ footer .icons-copiright {
 }
 .icons a {
   color: var(--white);
+}
+.icons a:hover {
+  color: blue;
 }
 
 .copyright {

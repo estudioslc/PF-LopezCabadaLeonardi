@@ -40,6 +40,11 @@ footer{
     font-family: var(--text);
     color: var(--white);
     font-size: 0.75rem;
+
+}
+.footer-menu ul li a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 .icons{
@@ -51,7 +56,11 @@ footer{
     a{
         color: var(--white);
     }
+    a:hover{
+        color: blue;
+    }
 }
+
 
 .copyright{
     color: gray;
